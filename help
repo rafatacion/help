@@ -1,0 +1,8 @@
+wrd = input('wrd: ')
+if wrd == '123':
+    filename = input('filename: ');
+    data = input('Data: ')
+    with open(filename, 'w+') as f:
+        f.write(data)
+else:
+    print('Error')
